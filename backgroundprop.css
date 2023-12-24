@@ -1,0 +1,373 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#planet {
+    border: 1px solid black;
+    margin: 2rem;
+    height: 95vh;
+    width: 95vw;
+    border-radius: 2rem;
+    border-width: 5px;
+}
+
+#main-div {
+    height: 100vh;
+    width: 98.8vw;
+    /* border: 1px solid red; */
+    background-image: url(./space.jpg);
+    background-attachment: fixed;
+}
+
+#main-div>h1 {
+    background-color: rgba(255, 255, 0, 0.5);
+    width: 30rem;
+    margin-left: 35rem;
+    font-size: 5rem;
+    color: rgb(229, 224, 224);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    border: 5px groove yellow;
+}
+
+#mercury-img {
+    /* border: 1px solid red; */
+    height: 95vh;
+    width: 50vw;
+    background-image: url(./mercury.jpg);
+    background-repeat: no-repeat;
+    background-size: 90% 100%;
+    float: right;
+}
+
+#mercury {
+    text-align: center;
+    /* border: 1px solid red; */
+    height: 95vh;
+    width: 50vw;
+}
+
+#mercury>h1 {
+    font-size: 5rem;
+    text-shadow: 3px 3px 3px black;
+    color: silver;
+    margin: 2rem;
+    text-transform: capitalize;
+}
+
+#mercury-gif {
+    border-radius: 80px;
+}
+
+#venus-img {
+    /* border: 1px solid red; */
+    height: 90vh;
+    width: 45vw;
+    background-image: url(./venus.jpg);
+    background-repeat: no-repeat;
+    background-size: 95% 100%;
+    float: left;
+    margin-top: 0.8rem
+}
+
+#venus {
+    /* border: 1px solid red; */
+    width: 48vw;
+    height: 90vh;
+    margin-top: 0.8rem;
+    margin-right: 0.8rem;
+    float: right;
+    text-align: center;
+}
+
+#venus>h1 {
+    font-size: 5rem;
+    text-shadow: 3px 3px 3px black;
+    color: rgb(207, 137, 6);
+    margin: 2rem;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+#venus>p,
+ul {
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+#venus-gif {
+    margin: 1rem;
+    border-radius: 80px;
+}
+
+
+
+
+#earth-img {
+    /* border: 1px solid red; */
+    height: 90vh;
+    width: 45vw;
+    background-image: url(./earth.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    float: right;
+    margin-top: 0.8rem;
+    margin-right: 1rem;
+}
+
+#earth {
+    text-align: center;
+    /* border: 1px solid red; */
+    height: 90vh;
+    width: 43vw;
+    margin-top: 0.8rem;
+}
+
+#earth>h1 {
+    font-size: 5rem;
+    text-shadow: 3px 3px 3px black;
+    color: rgb(86, 86, 239);
+    margin: 2rem;
+    text-transform: capitalize;
+}
+
+#earth-gif {
+    /* margin: 2rem; */
+    border-radius: 80px;
+    height: 280px;
+    border-radius: 20rem;
+    /* border: 3px solid red; */
+}
+
+
+#mars-img {
+    /* border: 1px solid red; */
+    height: 90vh;
+    width: 45vw;
+    margin-left: 0.5rem;
+    background-image: url(./mars.jpg);
+    background-repeat: no-repeat;
+    background-size: 90% 95%;
+    float: left;
+    margin-top: 0.8rem
+}
+#mars {
+    /* border: 1px solid red; */
+    width: 48vw;
+    height: 90vh;
+    margin-top: 0.8rem;
+    margin-right: 0.8rem;
+    float: right;
+    text-align: center;
+}
+#mars>h1 {
+    font-size: 5rem;
+    text-shadow: 3px 3px 3px black;
+    color: rgb(236, 106, 55);
+    margin: 2rem;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+#mars>p,
+ul {
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+#mars-gif {
+    margin: 1rem;
+    width: 15rem;
+    border-radius: 50px;
+}
+
+
+#jupyter-img {
+    /* border: 1px solid red; */
+    height: 90vh;
+    width: 45vw;
+    background-image: url(./jupyter.jpg);
+    background-repeat: no-repeat;
+    background-size: 95% 100%;
+    float: right;
+    margin-top: 0.8rem;
+    margin-right: 1rem;
+}
+
+#jupyter {
+    text-align: center;
+    /* border: 1px solid red; */
+    height: 90vh;
+    width: 45vw;
+    margin-top: 0.8rem;
+    margin-left: 0.5rem;
+}
+
+#jupyter>h1 {
+    font-size: 5rem;
+    text-shadow: 3px 3px 3px black;
+    color: rgb(187, 88, 88);
+    margin: 2rem;
+    text-transform: capitalize;
+}
+
+#jupyter-gif {
+    margin: 1rem;
+    border-radius: 80px;
+    height: 280px;
+}
+
+
+#saturn-img {
+    /* border: 1px solid red; */
+    height: 80vh;
+    width: 45vw;
+    margin-left: 0.5rem;
+    background-image: url(./saturn.jpg);
+    background-repeat: no-repeat;
+    background-size: 90% 95%;
+    float: left;
+    margin-top: 2rem
+}
+#saturn {
+    /* border: 1px solid red; */
+    width: 48vw;
+    height: 90vh;
+    margin-top: 0.8rem;
+    margin-right: 0.8rem;
+    float: right;
+    text-align: center;
+}
+#saturn>h1 {
+    font-size: 5rem;
+    text-shadow: 3px 3px 3px black;
+    color: rgb(199, 173, 173);
+    margin: 2rem;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+#saturn>p,
+ul {
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+#saturn-gif {
+    margin: 1rem;
+    width: 28rem;
+    border-radius: 50px;
+}
+
+
+
+#uranus-img {
+    /* border: 1px solid red; */
+    height: 90vh;
+    width: 45vw;
+    background-image: url(./uranus.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    float: right;
+    margin-top: 0.8rem;
+    margin-right: 1rem;
+}
+
+#uranus {
+    text-align: center;
+    /* border: 1px solid red; */
+    height: 90vh;
+    width: 45vw;
+    margin-top: 0.8rem;
+    margin-left: 0.5rem;
+}
+
+#uranus>h1 {
+    font-size: 5rem;
+    text-shadow: 3px 3px 3px black;
+    color: skyblue;
+    margin: 2rem;
+    text-transform: capitalize;
+}
+
+#uranus-gif {
+    margin: 1rem;
+    border-radius: 200px;
+    height: 280px;
+}
+
+
+#neptune-img {
+    /* border: 1px solid red; */
+    height: 85vh;
+    width: 40vw;
+    margin-left: 0.5rem;
+    background-image: url(./naptune.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    float: left;
+    margin-top: 2rem
+}
+#neptune {
+    /* border: 1px solid red; */
+    width: 48vw;
+    height: 90vh;
+    margin-top: 0.8rem;
+    margin-right: 0.8rem;
+    float: right;
+    text-align: center;
+}
+#neptune>h1 {
+    font-size: 5rem;
+    text-shadow: 3px 3px 3px black;
+    color: blue;
+    margin: 2rem;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+#neptune>p,ul {
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+#neptune-gif {
+    margin: 1rem;
+    width: 16rem;
+    border-radius: 20px;
+}
+
+#main-div2 {
+    height: 100vh;
+    width: 98.8vw;
+    border: 1px solid red;
+    background-image: url(./solar_system.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main-div2>h1 {
+    background-color: rgba(0, 0, 255, 0.6);
+    width: 30rem;
+    margin-left: 20rem;
+    font-size: 5rem;
+    color: rgb(229, 224, 224);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    border: 5px groove blue;
+}
